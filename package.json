@@ -1,0 +1,32 @@
+{
+  "name": "micro-query",
+  "version": "0.1.0",
+  "description": "Simple querystring parser for Zeit's Micro",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdify/micro-query.git"
+  },
+  "keywords": [
+    "micro",
+    "query",
+    "qs"
+  ],
+  "author": "Hosmel Quintana <hosmelq@gmail.com> (http://hosmelq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerdify/micro-query/issues"
+  },
+  "homepage": "https://github.com/nerdify/micro-query#readme",
+  "dependencies": {
+    "qs": "^6.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.1.1",
+    "prettier": "^1.4.2",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": "prettier"
+  }
+}
