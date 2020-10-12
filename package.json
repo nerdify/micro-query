@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/nerdify/micro-query#readme",
   "dependencies": {
-    "qs": "6.5.2"
+    "qs": "6.9.4"
   },
   "devDependencies": {
-    "xo": "0.21.0"
+    "xo": "0.33.1"
   }
 }
