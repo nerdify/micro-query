@@ -1,9 +1,9 @@
 const qs = require('qs');
 const url = require('url');
 
-module.exports = req => {
+module.exports = request => {
 	return qs.parse(
-        url.parse(req.url).search,
-        { ignoreQueryPrefix: true }
-    );
+		new url.URL(request.url).search,
+		{ignoreQueryPrefix: true}
+	);
 };
