@@ -22,6 +22,12 @@
     "qs": "6.9.4"
   },
   "devDependencies": {
+    "ava": "3.13.0",
     "xo": "0.34.1"
+  },
+  "scripts": {
+    "fix": "xo --fix",
+    "lint": "xo",
+    "test": "ava"
   }
 }
