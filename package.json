@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/nerdify/micro-query#readme",
   "dependencies": {
-    "qs": "6.10.1"
+    "qs": "6.10.3"
   },
   "devDependencies": {
     "ava": "3.15.0",
